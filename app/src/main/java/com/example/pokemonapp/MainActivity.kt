@@ -29,9 +29,7 @@ class MainActivity : ComponentActivity() {
             PokemonAppTheme {
                 val navController = rememberNavController()
                 NavHost(navController = navController, startDestination = "pokemon_list_screen") {
-                    composable("pokemon_list_screen") {
-
-                    }
+                    composable("pokemon_list_screen") {}
 
                     composable(
                         "pokemon_detail_screen", arguments =
