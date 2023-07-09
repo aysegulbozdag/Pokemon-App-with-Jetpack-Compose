@@ -21,4 +21,5 @@ class PokemonListviewModel @Inject constructor(private val repository: PokemonRe
       //  Palette.from()
     }
 
+
 }
